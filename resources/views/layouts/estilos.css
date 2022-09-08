@@ -1,0 +1,11 @@
+
+
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+    margin-bottom: -40px !important;
+}
+
+.dt-buttons, .btn-group {
+    position: absolute !important;
+    margin-bottom: -40px !important;
+}
