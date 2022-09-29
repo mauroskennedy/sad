@@ -3,8 +3,8 @@
 @section('contenido')
     <h1 class="text-center">Cargos Distrito 1</h1>
     <a href="cargos/create" class="btn btn-primary mb-2">Crear</a>
-        <table id="table" class="table table-dark table-striped mt-4">
-        <thead class="bg-primary text-white">
+        <table id="table" class="table table-white table-striped mt-4">
+        <thead class="bg-primary text-black">
             <tr>
                 <th>Id</th>
                 <th>Nombre</th>

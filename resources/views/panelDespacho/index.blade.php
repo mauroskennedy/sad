@@ -3,7 +3,7 @@
 @section('contenido')
 <h1 class="text-center">Ciudad de El Alto</h1>
 <h2 class="text-center">14 Distritos Municipales</h2>
-<h6 class="text-end">actulizado 15/06/2022</h6>
+<h6 class="text-end">Actualizado 15/06/2022</h6>
     <!-- <a href="mesadirectivas/create" class="btn btn-primary mb-2">Crear</a> -->
         <table id="table" class="table table-Light table-striped mt-4">
         <thead class="text-black fs-4">

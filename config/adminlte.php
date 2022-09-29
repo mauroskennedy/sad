@@ -279,27 +279,33 @@ return [
 
         ],
 
-        // [
-        //     'text' => 'cambiar password',
-        //     'url'  => 'admin/settings',
-        //     'icon' => 'fas fa-fw fa-lock',
-        // ],
-        // [
-        //     'text'    => 'multilevel',
-        //     'icon'    => 'fas fa-fw fa-share',
-        //     'submenu' => [
-        //         [
-        //             'text' => 'level_one',
-        //             'url'  => '#',
-        //         ],
-        //         [
-        //             'text'    => 'level_one',
-        //             'url'     => '#',
-        //             'submenu' => [
-        //                 [
-        //                     'text' => 'level_two',
-        //                     'url'  => '#',
-        //                 ],
+         [
+            'text'    => 'Presidentes Municipales',
+            'icon'    => 'fas fa-fw fa-user',
+            'submenu' => [
+                 [
+                     'text' => 'Cargo',
+                     'icon'    => 'fas fa-fw fa-file',
+                     'url'  => '/posicion',
+                 ],
+                [
+                     'text'    => 'Representantes',
+                     'icon'    => 'fas fa-fw fa-user',
+                     'url'     => '/personal',
+                     
+                         ],
+                         [
+                             'text' => 'Dependencia',
+                             'icon'    => 'fas fa-fw fa-file',
+                             'url'  => '/dependencia',
+                         ],
+                [
+                             'text' => 'Areas',
+                             'icon'    => 'fas fa-fw fa-user',
+                             'url'  => '/area',
+                         ],
+             ],
+         ],
         //                 [
         //                     'text'    => 'level_two',
         //                     'url'     => '#',

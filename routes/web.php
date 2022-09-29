@@ -52,6 +52,14 @@ Route::get('/mesadirectivasDistritos4/{id}/urbanizacionByDistrito','App\Http\Con
 
 Route::get('/panel/{id}/urbanizacionByDistrito','App\Http\Controllers\PaneldistritosController@urbanizacionByDistrito');
 
+Route::resource('posicion','App\Http\Controllers\PosicionController');
+
+Route::resource('area','App\Http\Controllers\AreaController');
+
+Route::resource('personal','App\Http\Controllers\PersonalController');
+
+Route::resource('dependencia','App\Http\Controllers\DependenciaController');
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
